@@ -1,0 +1,9 @@
+{
+  "source": {
+    "remote": {
+      "host": "http://elastic-1:9200"
+    },
+    "index": "ecommerce"
+  },
+  "dest": { "index": "ecommerce", "pipeline": "rename-customer" }
+}

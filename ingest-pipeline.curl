@@ -1,0 +1,4 @@
+url = http://localhost:9201/_ingest/pipeline/rename-customer
+request = PUT
+header = "Content-Type: application/json"
+data = @ingest-pipeline.json

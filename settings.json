@@ -1,0 +1,14 @@
+{
+  "persistent": {
+    "cluster": {
+      "remote": {
+        "elastic-2": {
+          "seeds": [
+            "elastic-2:9300"
+          ],
+          "transport.ping_schedule": "10s"
+        }
+      }
+    }
+  }
+}

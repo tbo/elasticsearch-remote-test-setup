@@ -1,0 +1,5 @@
+-- url = https://search-swarovski-a-l67tnyjn4nuxgux5xa2h2jyvmi.eu-central-1.es.amazonaws.com/_cluster/settings
+url = http://localhost:9200/_cluster/settings
+request = PUT
+header = "Content-Type: application/json"
+data = @settings.json

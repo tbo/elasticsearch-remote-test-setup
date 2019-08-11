@@ -1,0 +1,14 @@
+{
+  "description": "Rename Customer",
+  "processors": [
+    {
+      "set": {
+        "field": "customer_full_name",
+        "value": "John Doe"
+      },
+      "remove": {
+        "field": ["customer_last_name", "customer_first_name"]
+      }
+    }
+  ]
+}

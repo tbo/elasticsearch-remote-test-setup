@@ -1,0 +1,4 @@
+url = http://localhost:9201/_reindex
+request = POST
+header = "Content-Type: application/json"
+data = @reindex.json
